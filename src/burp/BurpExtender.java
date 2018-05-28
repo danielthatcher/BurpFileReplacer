@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 public class BurpExtender implements IBurpExtender, ITab, IHttpListener {
     private static IBurpExtenderCallbacks callbacks;
     private static IExtensionHelpers helpers;
-    private PrintWriter stderr;
+    private static PrintWriter stderr;
     public static JPanel mainPanel;
     public static JPanel fileSettingsPanel;
     public static int numFiles;
